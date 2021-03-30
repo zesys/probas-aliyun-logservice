@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Version>1.0.0-alpha</Version>
+    <Authors>pins</Authors>
+    <Company>zesys</Company>
+    <Product>Probas.Aliyun.LogService</Product>
+    <Description>源于阿里云日志服务.NET SDK</Description>
+    <PackageReleaseNotes>源于阿里云日志服务.NET SDK</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/zesys/probas-aliyun-logservice</PackageProjectUrl>
+    <Copyright>zesys</Copyright>
+    <PackageTags>.NET Core</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.15.6" />
+    <PackageReference Include="Ionic.Zlib.Core" Version="1.0.0" />
+    <PackageReference Include="lz4net" Version="1.0.15.93" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
