@@ -2,23 +2,37 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <Version>1.0.0-alpha</Version>
+    <Version>1.0.0</Version>
     <Authors>pins</Authors>
     <Company>zesys</Company>
+    <Owners>zesys</Owners>
     <Product>Probas.Aliyun.LogService</Product>
+	<PackageId>Probas.Aliyun.LogService</PackageId>
+	<Title>Probas.Aliyun.LogService</Title>
     <Description>源于阿里云日志服务.NET SDK</Description>
     <PackageReleaseNotes>源于阿里云日志服务.NET SDK</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/zesys/probas-aliyun-logservice</PackageProjectUrl>
     <Copyright>zesys</Copyright>
     <PackageTags>.NET Core</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Google.Protobuf" Version="3.15.6" />
     <PackageReference Include="Ionic.Zlib.Core" Version="1.0.0" />
     <PackageReference Include="lz4net" Version="1.0.15.93" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="5.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="License.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 </Project>
